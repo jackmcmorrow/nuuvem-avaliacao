@@ -1,0 +1,15 @@
+/* Daniel Cavalcanti
+Usando Sublime Text 2, Compass e Prepros;
+*/
+
+@import "compass/css3";
+@import "_article", "_contador-regressivo";
+
+//Globais
+
+.center {
+	text-align: center;
+
+	* {text-align: center;}
+	div {margin: 0 auto;}
+}

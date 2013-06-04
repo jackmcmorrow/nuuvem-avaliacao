@@ -1,0 +1,49 @@
+article, .article {
+
+	.slider {
+		position: relative;
+		overflow: hidden;
+		display: block;
+		clear: both;
+		height: 120px;
+
+		padding: 10px 20px;
+
+		.slider-inner {
+			width: 5000px;
+		}
+
+		.nav {
+			position: absolute;
+			display: block;
+			height: 120px;
+			width: 20px;
+			background-color: #ccc;
+
+			&.prev {
+				left: 0;
+			}
+	
+			&.next {
+				right: 0;
+			}
+		}
+	}
+
+	.portrait {
+		display: block;
+		float: left;
+		margin-right: 5px;
+		border: 3px solid white;
+		@include box-shadow(2px 3px 5px #000000);
+
+		img {
+			width: 210px;
+		}
+	}
+
+	h1 {
+		font-family: Serif;
+		font-size: 22px;
+	}
+}

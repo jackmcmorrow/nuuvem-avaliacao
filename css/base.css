@@ -1,0 +1,85 @@
+/* Daniel Cavalcanti
+Usando Sublime Text 2, Compass e Prepros;
+*/
+/* line 3, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article .slider, .article .slider {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  clear: both;
+  height: 120px;
+  padding: 10px 20px; }
+  /* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .slider .slider-inner, .article .slider .slider-inner {
+    width: 5000px; }
+  /* line 16, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .slider .nav, .article .slider .nav {
+    position: absolute;
+    display: block;
+    height: 120px;
+    width: 20px;
+    background-color: #ccc; }
+    /* line 23, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .slider .nav.prev, .article .slider .nav.prev {
+      left: 0; }
+    /* line 27, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .slider .nav.next, .article .slider .nav.next {
+      right: 0; }
+/* line 33, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article .portrait, .article .portrait {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  border: 3px solid white;
+  -webkit-box-shadow: 2px 3px 5px black;
+  -moz-box-shadow: 2px 3px 5px black;
+  box-shadow: 2px 3px 5px black; }
+  /* line 40, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .portrait img, .article .portrait img {
+    width: 210px; }
+/* line 45, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article h1, .article h1 {
+  font-family: Serif;
+  font-size: 22px; }
+
+/* line 5, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+.contador-regressivo .espacador {
+  width: auto;
+  float: left;
+  padding: 4px 3px;
+  height: 40px; }
+/* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+.contador-regressivo .numeros {
+  position: relative;
+  height: 47px;
+  width: 50px;
+  float: left; }
+  /* line 18, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  .contador-regressivo .numeros .dec, .contador-regressivo .numeros .uni {
+    width: auto;
+    float: left;
+    font-size: 16px;
+    background-color: #efefef;
+    border: 1px solid #000000;
+    border-radius: 5px 0 0 5px;
+    padding: 3px 6px; }
+  /* line 29, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  .contador-regressivo .numeros .uni {
+    border-radius: 0 5px 5px 0; }
+  /* line 34, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  .contador-regressivo .numeros .info {
+    text-transform: uppercase;
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+/* line 10, ../sass/base.scss */
+.center {
+  text-align: center; }
+  /* line 13, ../sass/base.scss */
+  .center * {
+    text-align: center; }
+  /* line 14, ../sass/base.scss */
+  .center div {
+    margin: 0 auto; }

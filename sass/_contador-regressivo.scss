@@ -1,0 +1,45 @@
+.contador-regressivo {
+
+
+
+	.espacador {
+		width: auto;
+		float: left;
+		padding: 4px 3px;
+		height: 40px;
+	}
+
+	.numeros {
+		position: relative;
+		height: 47px;
+		width: 50px;
+		float: left;
+
+		.dec {
+			width: auto;
+			float: left;
+			font-size: 16px;
+
+			background-color: #efefef;
+			border: 1px solid #000000;
+			border-radius: 5px 0 0 5px;
+			padding: 3px 6px;
+		}
+
+		.uni {
+			@extend .dec;
+			border-radius: 0 5px 5px 0;
+		}
+
+		.info {
+			text-transform: uppercase;
+			font-size: 8px;
+
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}		
+	}
+
+	
+}

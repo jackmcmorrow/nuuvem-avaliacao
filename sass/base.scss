@@ -2,10 +2,42 @@
 Usando Sublime Text 2, Compass e Prepros;
 */
 
+$cor-primaria : #ffb500;
+$cor-secundaria : #4a1914;
+$contraste-primario : #ffffff;
+
+//Tamanho base do texto
+$tb: 13px;
+
+//COMPASS
 @import "compass/css3";
-@import "_article", "_contador-regressivo";
+//NON-STYLES
+@import "_mixins";
+//SEÇÕES
+@import "_article", "_contador-regressivo", "_header", "_footer";
 
 //Globais
+
+.btn {
+	background: url('../img/btn.png') no-repeat 0 0 transparent;
+	width: 230px;
+	height: 20px;
+	text-align: center;
+
+	border: none;
+	padding: 20px 15px;
+	font-size: $tb * 1.5;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ffffff;
+
+	@include transition(none);
+
+	&:hover {
+		@extend .btn;
+		background-position: 0 -63px;
+	}
+}
 
 .center {
 	text-align: center;
@@ -13,3 +45,5 @@ Usando Sublime Text 2, Compass e Prepros;
 	* {text-align: center;}
 	div {margin: 0 auto;}
 }
+
+@include sticky(72px);

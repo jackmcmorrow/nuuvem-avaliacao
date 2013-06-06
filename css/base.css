@@ -1,46 +1,91 @@
 /* Daniel Cavalcanti
 Usando Sublime Text 2, Compass e Prepros;
 */
-/* line 3, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-article .slider, .article .slider {
-  position: relative;
-  overflow: hidden;
-  display: block;
-  clear: both;
-  height: 120px;
-  padding: 10px 20px; }
-  /* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .slider .slider-inner, .article .slider .slider-inner {
-    width: 5000px; }
+/* line 1, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+#conteudo {
+  background: url("../img/fnd-pergaminho.jpg") 0 0 repeat;
+  -webkit-box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3), inset 0 -59px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3), inset 0 -59px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3), inset 0 -59px 20px rgba(0, 0, 0, 0.3); }
+
+/* line 6, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article, .article {
+  position: relative; }
+  /* line 10, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article h1, .article h1 {
+    color: #4a1914;
+    font-family: Serif;
+    font-size: 22px; }
   /* line 16, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .slider .nav, .article .slider .nav {
+  article .fnd-slider, .article .fnd-slider {
+    background: transparent url("../img/fnd-slider.png") 0 0 no-repeat;
     position: absolute;
+    left: 10px;
+    width: 100%;
+    height: 270px; }
+  /* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .slider-outer, .article .slider-outer {
+    position: relative; }
+    /* line 26, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .slider-outer .slider, .article .slider-outer .slider {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      clear: both;
+      height: 210px;
+      padding: 20px 0; }
+      /* line 36, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+      article .slider-outer .slider .slider-inner, .article .slider-outer .slider .slider-inner {
+        width: 5000px; }
+    /* line 41, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .slider-outer .nav, .article .slider-outer .nav {
+      background: transparent url("../img/setas.png") 0 0 no-repeat;
+      position: absolute;
+      top: 120px;
+      display: block;
+      height: 45px;
+      width: 45px;
+      text-indent: -99999px; }
+      /* line 50, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+      article .slider-outer .nav.prev, .article .slider-outer .nav.prev {
+        left: -50px;
+        background-position: 0 0; }
+        /* line 53, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+        article .slider-outer .nav.prev.inactive, .article .slider-outer .nav.prev.inactive {
+          background-position: 0 -75px; }
+      /* line 58, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+      article .slider-outer .nav.next, .article .slider-outer .nav.next {
+        right: -50px;
+        background-position: -70px 0; }
+        /* line 61, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+        article .slider-outer .nav.next.inactive, .article .slider-outer .nav.next.inactive {
+          background-position: -70px -75px; }
+  /* line 72, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .portrait, .article .portrait {
     display: block;
-    height: 120px;
-    width: 20px;
-    background-color: #ccc; }
-    /* line 23, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .slider .nav.prev, .article .slider .nav.prev {
-      left: 0; }
-    /* line 27, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .slider .nav.next, .article .slider .nav.next {
-      right: 0; }
-/* line 33, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-article .portrait, .article .portrait {
-  display: block;
-  float: left;
-  margin-right: 5px;
-  border: 3px solid white;
-  -webkit-box-shadow: 2px 3px 5px black;
-  -moz-box-shadow: 2px 3px 5px black;
-  box-shadow: 2px 3px 5px black; }
-  /* line 40, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .portrait img, .article .portrait img {
-    width: 210px; }
-/* line 45, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-article h1, .article h1 {
-  font-family: Serif;
-  font-size: 22px; }
+    float: left;
+    margin-right: 18px;
+    border: 3px solid white;
+    -webkit-box-shadow: 0 5px 15px -4px black;
+    -moz-box-shadow: 0 5px 15px -4px black;
+    box-shadow: 0 5px 15px -4px black; }
+    /* line 79, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .portrait:hover, .article .portrait:hover {
+      border-color: #ffb500;
+      position: relative; }
+      /* line 82, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+      article .portrait:hover:after, .article .portrait:hover:after {
+        content: ' ';
+        display: block;
+        width: 215px;
+        height: 134px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: rgba(0, 0, 0, 0.3) url("../img/lupa.png") center 50% no-repeat; }
+    /* line 96, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .portrait img, .article .portrait img {
+      width: 215px; }
 
 /* line 5, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
 .contador-regressivo .espacador {
@@ -68,18 +113,132 @@ article h1, .article h1 {
     border-radius: 0 5px 5px 0; }
   /* line 34, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .info {
+    color: #ffb500;
     text-transform: uppercase;
     font-size: 8px;
     position: absolute;
     bottom: 0;
     left: 0; }
 
-/* line 10, ../sass/base.scss */
+/* line 1, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+.topo {
+  background: white;
+  padding: 17px 0;
+  padding-top: 29px;
+  -webkit-box-shadow: inset 0 -21px 20px #cccccc;
+  -moz-box-shadow: inset 0 -21px 20px #cccccc;
+  box-shadow: inset 0 -21px 20px #cccccc;
+  border-bottom: 1px solid white; }
+  /* line 8, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+  .topo .logo-topo {
+    display: block;
+    width: 194px;
+    height: 30px;
+    background: url("../img/logo-topo.png") 0 0 no-repeat transparent;
+    text-indent: -99999px; }
+
+/* line 17, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+#header {
+  background: url("../img/fundoheader.jpg") top center no-repeat black; }
+  /* line 21, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+  #header .promo {
+    position: relative;
+    height: 237px;
+    padding-top: 85px;
+    padding-bottom: 85px; }
+    /* line 27, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+    #header .promo .lara-e-connor {
+      position: absolute;
+      top: -75px;
+      right: 0;
+      width: 619px;
+      height: 519px;
+      background: url("../img/laraeconnor.png"); }
+  /* line 39, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+  #header h1 {
+    color: #ffb500;
+    font-size: 26px;
+    line-height: 1;
+    text-transform: uppercase; }
+  /* line 46, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+  #header h2 {
+    color: white;
+    font-size: 39px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  /* line 55, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
+  #header h3 {
+    color: #ffb500;
+    font-size: 13px;
+    line-height: 1;
+    text-transform: uppercase; }
+
+/* line 3, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
+#footer {
+  box-sizing: border-box;
+  height: 72px;
+  padding: 20px;
+  background-color: #272727;
+  border-top: 1px solid #272727;
+  -webkit-box-shadow: inset 0 4px 5px black;
+  -moz-box-shadow: inset 0 4px 5px black;
+  box-shadow: inset 0 4px 5px black; }
+  /* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
+  #footer .logo-rodape {
+    display: block;
+    width: 177px;
+    height: 30px;
+    background: url("../img/logo-rodape.png") 0 0 no-repeat transparent;
+    float: left;
+    text-indent: -99999px; }
+  /* line 22, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
+  #footer .assinatura {
+    color: white; }
+
+/* line 21, ../sass/base.scss */
+.btn, .btn:hover {
+  background: url("../img/btn.png") no-repeat 0 0 transparent;
+  width: 230px;
+  height: 20px;
+  text-align: center;
+  border: none;
+  padding: 20px 15px;
+  font-size: 19.5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none; }
+  /* line 36, ../sass/base.scss */
+  .btn:hover {
+    background-position: 0 -63px; }
+
+/* line 42, ../sass/base.scss */
 .center {
   text-align: center; }
-  /* line 13, ../sass/base.scss */
+  /* line 45, ../sass/base.scss */
   .center * {
     text-align: center; }
-  /* line 14, ../sass/base.scss */
+  /* line 46, ../sass/base.scss */
   .center div {
     margin: 0 auto; }
+
+/* line 3, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_mixins.scss */
+#wrapper {
+  position: relative;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%; }
+
+/* line 10, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_mixins.scss */
+#root {
+  padding-bottom: 72px; }
+
+/* line 14, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_mixins.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }

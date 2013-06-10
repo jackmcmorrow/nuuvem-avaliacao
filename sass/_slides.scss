@@ -1,0 +1,19 @@
+#slides {
+    display:none;
+
+   .slidesjs-previous {
+    	left: -50px;
+    	background-position: 0 0;
+    	&.inactive {
+    		background-position: 0 -75px;
+    	}
+    }
+    
+    .slidesjs-next {
+    	right: -50px;
+    	background-position: -70px 0;
+    	&.inactive {
+    		background-position: -70px -75px;
+    	}
+    }
+}

@@ -29,14 +29,10 @@ article, .article {
     /* line 26, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
     article .slider-outer .slider, .article .slider-outer .slider {
       position: relative;
-      overflow: hidden;
       display: block;
       clear: both;
       height: 210px;
       padding: 20px 0; }
-      /* line 36, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-      article .slider-outer .slider .slider-inner, .article .slider-outer .slider .slider-inner {
-        width: 5000px; }
     /* line 41, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
     article .slider-outer .nav, .article .slider-outer .nav {
       background: transparent url("../img/setas.png") 0 0 no-repeat;
@@ -46,21 +42,7 @@ article, .article {
       height: 45px;
       width: 45px;
       text-indent: -99999px; }
-      /* line 50, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-      article .slider-outer .nav.prev, .article .slider-outer .nav.prev {
-        left: -50px;
-        background-position: 0 0; }
-        /* line 53, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-        article .slider-outer .nav.prev.inactive, .article .slider-outer .nav.prev.inactive {
-          background-position: 0 -75px; }
-      /* line 58, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-      article .slider-outer .nav.next, .article .slider-outer .nav.next {
-        right: -50px;
-        background-position: -70px 0; }
-        /* line 61, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-        article .slider-outer .nav.next.inactive, .article .slider-outer .nav.next.inactive {
-          background-position: -70px -75px; }
-  /* line 72, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  /* line 58, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
   article .portrait, .article .portrait {
     display: block;
     float: left;
@@ -69,11 +51,11 @@ article, .article {
     -webkit-box-shadow: 0 5px 15px -4px black;
     -moz-box-shadow: 0 5px 15px -4px black;
     box-shadow: 0 5px 15px -4px black; }
-    /* line 79, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    /* line 65, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
     article .portrait:hover, .article .portrait:hover {
       border-color: #ffb500;
       position: relative; }
-      /* line 82, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+      /* line 68, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
       article .portrait:hover:after, .article .portrait:hover:after {
         content: ' ';
         display: block;
@@ -83,7 +65,7 @@ article, .article {
         top: 0px;
         left: 0px;
         background: rgba(0, 0, 0, 0.3) url("../img/lupa.png") center 50% no-repeat; }
-    /* line 96, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    /* line 82, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
     article .portrait img, .article .portrait img {
       width: 215px; }
 
@@ -196,7 +178,25 @@ article, .article {
   #footer .assinatura {
     color: white; }
 
-/* line 21, ../sass/base.scss */
+/* line 1, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+#slides {
+  display: none; }
+  /* line 4, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+  #slides .slidesjs-previous {
+    left: -50px;
+    background-position: 0 0; }
+    /* line 7, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+    #slides .slidesjs-previous.inactive {
+      background-position: 0 -75px; }
+  /* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+  #slides .slidesjs-next {
+    right: -50px;
+    background-position: -70px 0; }
+    /* line 15, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+    #slides .slidesjs-next.inactive {
+      background-position: -70px -75px; }
+
+/* line 23, ../sass/base.scss */
 .btn, .btn:hover {
   background: url("../img/btn.png") no-repeat 0 0 transparent;
   width: 230px;
@@ -212,17 +212,17 @@ article, .article {
   -moz-transition: none;
   -o-transition: none;
   transition: none; }
-  /* line 36, ../sass/base.scss */
+  /* line 38, ../sass/base.scss */
   .btn:hover {
     background-position: 0 -63px; }
 
-/* line 42, ../sass/base.scss */
+/* line 44, ../sass/base.scss */
 .center {
   text-align: center; }
-  /* line 45, ../sass/base.scss */
+  /* line 47, ../sass/base.scss */
   .center * {
     text-align: center; }
-  /* line 46, ../sass/base.scss */
+  /* line 48, ../sass/base.scss */
   .center div {
     margin: 0 auto; }
 

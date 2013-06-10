@@ -5,9 +5,7 @@
 	<title>Nuuvem - Avaliação de Daniel Cavalcanti</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/base.css">
-	<script src="js/vendor/jquery.min.js"></script>
-	<script src="js/vendor/slides.js"></script>
-	<script src="js/contagem-regressiva.js"></script>
+	
 </head>
 <body>
 <div id="wrapper">
@@ -76,25 +74,29 @@
 						<div class="slider">
 							<h1>Confira as imagens</h1>
 							
-							<div class="slider-inner">
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>
-								<a href="#" class="portrait">
-									<img src="http://lorempixel.com/400/250" alt="">
-								</a>	
+							<div id="slider" class="slider-inner">
+								<div class="sliderBloco">
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>
+								</div>
+								<div class="sliderBloco">
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>
+									<a href="img/imagemExemplo.png" class="portrait">
+										<img src="img/imagemExemplo.png" alt="">
+									</a>	
+								</div>
 							</div>
 						</div>
 
@@ -134,5 +136,23 @@
 		</div>
 	</div>
 </div>
+
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/jquery.colorbox-min.js"></script>
+<script src="js/vendor/slides.js"></script>
+<script src="js/contagem-regressiva.js"></script>
+
+<script>
+    $(function() {
+    	$('.portrait').colorbox();
+    	$('#slider').slidesjs({
+    		width: 940,
+    		height: 250
+    	});
+		
+    });
+
+    
+</script>
 </body>
 </html>

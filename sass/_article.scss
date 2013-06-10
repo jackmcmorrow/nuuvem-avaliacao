@@ -26,7 +26,7 @@ article, .article {
 		.slider {
 
 			position: relative;
-			overflow: hidden;
+			//overflow: hidden;
 			display: block;
 			clear: both;
 			height: 210px;
@@ -34,7 +34,7 @@ article, .article {
 			padding: 20px 0;
 
 			.slider-inner {
-				width: 5000px;
+				//width: 5000px;
 			}
 		}
 
@@ -47,21 +47,7 @@ article, .article {
 			width: 45px;
 			
 
-			&.prev {
-				left: -50px;
-				background-position: 0 0;
-				&.inactive {
-					background-position: 0 -75px;
-				}
-			}
-		
-			&.next {
-				right: -50px;
-				background-position: -70px 0;
-				&.inactive {
-					background-position: -70px -75px;
-				}
-			}
+			
 
 			@include linkimg;
 		}

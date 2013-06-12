@@ -1,18 +1,19 @@
 hoje = new Date()
-par = (x) -> (x % 2) == 0
-impar = (x) -> !par x
+eh_par = (x) -> (x % 2) == 0
+eh_impar = (x) -> not eh_par x
 
-contarDias = (meses, dias) ->
-	if par meses
+contarDias = (meses, dias) -> #tá ok
+	if eh_par meses
 		if meses is 2 
 			dias += 28
 		else 
-			dias += 30
-	if impar meses 
-		dias += 31
+			dias += 31
+	if eh_impar meses 
+		dias += 30
 	dias
 
-atualizarNum = ($obj, val) ->
+atualizarNum = ($obj, val) -> #tá ok
+
 	if val >= 10
 		alg = val.toString().split("");
 		$($obj + ' .dec').text(alg[0])
@@ -24,30 +25,42 @@ atualizarNum = ($obj, val) ->
 class Contador
 	constructor : (@fDia, @fMes, @fAno, @fHoras, @fMin, @fSec) ->
 		final = new Date(@fAno, @fMes, @fDia, @fHoras, @fMin, @fSec)
-		@hAno = final.getFullYear() - hoje.getFullYear()
+		#hoje
+		@hAno = hoje.getFullYear()
 		@hMes = hoje.getMonth() + 1
-		@hHoras = final.getHours() - hoje.getHours() 
-		@hMin = final.getMinutes() - hoje.getMinutes() 
-		@hSec = final.getSeconds() - hoje.getSeconds() 
-		@hDia = final.getDate() - hoje.getDate()
+		@hHoras = hoje.getHours() 
+		@hMin = hoje.getMinutes() 
+		@hSec = hoje.getSeconds() 
+		@hDia = hoje.getDate()
+		
 		@dias = ->
-			dias = 0
+			a = 0
 			meses = @hMes
-			while @fMes > meses
-				contarDias meses, dias
+			while @fMes > @hMes
+				contarDias meses, a
 				meses -= 1
-				console.log dias
+				#console.log a
+
+		#Delta, a variação
+		@dAno 	= @fAno - @hAno
+		@dMes 	= @fMes - @hMes
+		@dDia 	= @dias;
+		@dHoras = @fHoras - @hHoras
+		@dMin 	= @fMin - @hMin
+		@dSec 	= @fSec - @hSec
+
+		
 
 		console.log @hAno + ' ' + @hMes + ' ' + @hDia + ' ' + @hHoras + ' ' + @hMin + ' ' + @hSec
 		
-		atualizarNum '#segundos', @hSec
-		atualizarNum '#minutos', @hMin
-		atualizarNum '#segundos', @hSec
-		atualizarNum '#segundos', @hSec
+		atualizarNum '#segundos', @dSec
+		atualizarNum '#minutos', @dMin
+		atualizarNum '#horas', @dSec
+		atualizarNum '#dias', @dias
 
 		@contar = () ->
-			diasFaltando = @dias
-			#console.log @dias
+			diasFaltando = @dias 0
+			console.log diasFaltando
 
 			atualizarNum '#dias', diasFaltando
 
@@ -69,4 +82,4 @@ class Contador
 			@hSec -= 1
 
 contador = new Contador 12, 8, 2013, 19, 0, 0
-setTimeout contador.contar(), 500
+#setTimeout contador.contar(), 100000000

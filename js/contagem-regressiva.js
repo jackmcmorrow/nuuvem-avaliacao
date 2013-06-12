@@ -1,26 +1,26 @@
 (function() {
-  var Contador, atualizarNum, contador, contarDias, hoje, impar, par;
+  var Contador, atualizarNum, contador, contarDias, eh_impar, eh_par, hoje;
 
   hoje = new Date();
 
-  par = function(x) {
+  eh_par = function(x) {
     return (x % 2) === 0;
   };
 
-  impar = function(x) {
-    return !par(x);
+  eh_impar = function(x) {
+    return !eh_par(x);
   };
 
   contarDias = function(meses, dias) {
-    if (par(meses)) {
+    if (eh_par(meses)) {
       if (meses === 2) {
         dias += 28;
       } else {
-        dias += 30;
+        dias += 31;
       }
     }
-    if (impar(meses)) {
-      dias += 31;
+    if (eh_impar(meses)) {
+      dias += 30;
     }
     return dias;
   };
@@ -48,34 +48,40 @@
       this.fMin = fMin;
       this.fSec = fSec;
       final = new Date(this.fAno, this.fMes, this.fDia, this.fHoras, this.fMin, this.fSec);
-      this.hAno = final.getFullYear() - hoje.getFullYear();
+      this.hAno = hoje.getFullYear();
       this.hMes = hoje.getMonth() + 1;
-      this.hHoras = final.getHours() - hoje.getHours();
-      this.hMin = final.getMinutes() - hoje.getMinutes();
-      this.hSec = final.getSeconds() - hoje.getSeconds();
-      this.hDia = final.getDate() - hoje.getDate();
+      this.hHoras = hoje.getHours();
+      this.hMin = hoje.getMinutes();
+      this.hSec = hoje.getSeconds();
+      this.hDia = hoje.getDate();
       this.dias = function() {
-        var dias, meses, _results;
+        var a, meses, _results;
 
-        dias = 0;
+        a = 0;
         meses = this.hMes;
         _results = [];
-        while (this.fMes > meses) {
-          contarDias(meses, dias);
-          meses -= 1;
-          _results.push(console.log(dias));
+        while (this.fMes > this.hMes) {
+          contarDias(meses, a);
+          _results.push(meses -= 1);
         }
         return _results;
       };
+      this.dAno = this.fAno - this.hAno;
+      this.dMes = this.fMes - this.hMes;
+      this.dDia = this.dias;
+      this.dHoras = this.fHoras - this.hHoras;
+      this.dMin = this.fMin - this.hMin;
+      this.dSec = this.fSec - this.hSec;
       console.log(this.hAno + ' ' + this.hMes + ' ' + this.hDia + ' ' + this.hHoras + ' ' + this.hMin + ' ' + this.hSec);
-      atualizarNum('#segundos', this.hSec);
-      atualizarNum('#minutos', this.hMin);
-      atualizarNum('#segundos', this.hSec);
-      atualizarNum('#segundos', this.hSec);
+      atualizarNum('#segundos', this.dSec);
+      atualizarNum('#minutos', this.dMin);
+      atualizarNum('#horas', this.dSec);
+      atualizarNum('#dias', this.dias);
       this.contar = function() {
         var diasFaltando;
 
-        diasFaltando = this.dias;
+        diasFaltando = this.dias(0);
+        console.log(diasFaltando);
         atualizarNum('#dias', diasFaltando);
         if (this.hHoras < 0) {
           this.dias -= 1;
@@ -101,7 +107,5 @@
   })();
 
   contador = new Contador(12, 8, 2013, 19, 0, 0);
-
-  setTimeout(contador.contar(), 500);
 
 }).call(this);

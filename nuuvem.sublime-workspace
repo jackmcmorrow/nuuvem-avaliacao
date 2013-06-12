@@ -1,0 +1,1013 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-indent"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"w",
+				"w	width"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ov",
+				"ovx	overflow-x: ${1:hidden};"
+			],
+			[
+				"bl",
+				"blink"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"hover",
+				"hover"
+			],
+			[
+				"bgp",
+				"background-position"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"bg",
+				"background"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"border-c",
+				"border-bottom-color"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"transition",
+				"transition-duration	zen:css_properties"
+			],
+			[
+				"s",
+				"style	@style"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"l",
+				"list-style"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"foc",
+				":focus"
+			],
+			[
+				"na",
+				"name	@name"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border-bo",
+				"border-bottom-color"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"td",
+				"td"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"repe",
+				"repeat-x"
+			],
+			[
+				"bord",
+				"border-left"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"url",
+				"url(image-url.gif)"
+			],
+			[
+				"br",
+				"BR"
+			],
+			[
+				"bor",
+				"border-right"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"te",
+				"text	@=text"
+			],
+			[
+				"line",
+				"select_lines"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"ante",
+				"anterior-semestre"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"col",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "coffee/contagem-regressiva.coffee",
+			"settings":
+			{
+				"buffer_size": 1540,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/_article.scss",
+			"settings":
+			{
+				"buffer_size": 1191,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/contagem-regressiva.js",
+			"settings":
+			{
+				"buffer_size": 2642,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/vendor/jquery.countdown.js",
+			"settings":
+			{
+				"buffer_size": 32807,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Compass/Compass.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"CSS Less-ish: Compile"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"Snippet: form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstra",
+				"Snippet: Bootstrap basic three column grid"
+			],
+			[
+				"mini",
+				"Build: Minify"
+			],
+			[
+				"less",
+				"Zen Coding: Evaluate math expression"
+			],
+			[
+				"form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstrap for",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"alert",
+				"Snippet: Bootstrap default alert"
+			],
+			[
+				"pagin",
+				"Snippet: Bootstrap pagination"
+			],
+			[
+				"nav",
+				"Snippet: Bootstrap navigation bar"
+			],
+			[
+				"navigat",
+				"Snippet: Bootstrap tabbable navigation tabs"
+			],
+			[
+				"bootstrap form",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"bootstr",
+				"Snippet: Bootstrap tabbable navigation tabs on the left"
+			],
+			[
+				"swe",
+				"Sweyla's Color Theme Generator: Generate bright!"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"zen",
+				"Zen Coding: Zen as you type"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"bootstrap str",
+				"Snippet: Bootstrap starter"
+			],
+			[
+				"bootstrap he",
+				"Snippet: Bootstrap basic three column grid"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"sni",
+				"Snippet: Bootstrap danger button"
+			],
+			[
+				"snipp",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"syntax: HTM",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"FORM",
+				"Snippet: Bootstrap horizontal form"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTAL",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 349.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss",
+		"/C/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss",
+		"/C/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss",
+		"/C/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/base.scss",
+		"/C/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss",
+		"/C/Users/Daniel/AppData/Local/Temp/7zE9AE8.tmp/jquery.countdown.js",
+		"/S/bobs/bobs/site/models/Layout.php",
+		"/S/bobs/bobs/site/public_html/js/vendor/jquery.colorbox-min.js",
+		"/C/Users/Daniel/AppData/Local/Temp/7zE3B30.tmp/jquery.colorbox-min.js",
+		"/S/reembolso/site/models/Layout.php",
+		"/S/reembolso/site/sass/sass/_icones.scss",
+		"/S/reembolso/site/sass/sass/_cesta-fixa.scss",
+		"/S/!demos/daniel/public_html/portal/index.html",
+		"/S/fotorio/site/docs/fotorio.sublime-project",
+		"/S/!demos/daniel/public_html/portal/bootstrapify.html",
+		"/S/reembolso/site/sass/sass/_antigo-base.scss",
+		"/S/reembolso/site/sass/sass/_cores.scss",
+		"/S/reembolso/site/sass/sass/_tabs.scss",
+		"/S/reembolso/site/sass/sass/_categorias.scss",
+		"/S/reembolso/site/sass/sass/_well.scss",
+		"/S/reembolso/site/sass/sass/_nav.scss",
+		"/S/reembolso/site/app_web/views/scripts/index/index.phtml",
+		"/S/reembolso/site/app_web/views/scripts/cadastre-se/index.phtml",
+		"/S/reembolso/site/app_web/views/scripts/_partials/showcomprar.phtml",
+		"/S/reembolso/site/sass/sass/novo-base.scss",
+		"/S/reembolso/site/app_web/views/scripts/produtos/index.phtml",
+		"/S/reembolso/site/sass/sass/cores.scss",
+		"/S/reembolso/site/public_html/css/base-1.0.css",
+		"/S/reembolso/site/public_html/js/app/views/cesta.js",
+		"/S/reembolso/site/public_html/css/novo-base.css",
+		"/S/reembolso/site/docs/sass/novo-base.scss",
+		"/S/reembolso/config.rb",
+		"/S/reembolso/site/docs/sass/cores.scss",
+		"/S/reembolso/site/docs/sass/_antigo-base.scss",
+		"/S/!demos/daniel/public_html/catalogo-globosat/public_html/js/vendor/html5media.js",
+		"/S/!demos/daniel/catalogo-globosat/config.rb",
+		"/S/!demos/daniel/public_html/index.html",
+		"/S/!demos/daniel/catalogo-globosat/docs/main.scss",
+		"/S/!demos/daniel/public_html/css/main.css",
+		"/S/reembolso/site/app_web/views/scripts/layout/base-css.phtml",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Settings/SideBarEnhancements.json",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/layout.scss",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/index/index.phtml",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/historico/index.phtml",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/avaliacao/relatorio-completo.phtml",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/avaliacao/questao-excel.phtml",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/avaliacao/plano-de-acao.phtml",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/base-novo.scss",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/colunasbobs.scss",
+		"/C/Users/Daniel/Documents/Color schemes/Monokai Soda.tmTheme",
+		"/C/Program Files/Sublime Text 2/Pristine Packages/Theme - Default.sublime-package",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/Preferences.sublime-settings",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/ZenCoding/zen-coding.sublime-settings",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/avaliacao/index.phtml",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/base-novo2.scss",
+		"/S/bobs/portaldeexcelencia/site/docs/config.rb",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/base-novo.sass",
+		"/C/Users/Daniel/Documents/GitHub/testes/sass/print.scss",
+		"/S/bobs/portaldeexcelencia/site/docs/sass/screen.sass",
+		"/S/bobs/portaldeexcelencia/site/public_html/css/base.css",
+		"/S/bobs/portaldeexcelencia/site/public_html/config.rb",
+		"/C/Users/Daniel/excelencia/config.rb",
+		"/S/bobs/portaldeexcelencia/site/application/views/scripts/avaliacao/avaliacao.phtml",
+		"/S/rsi/rio-demos/forum.html",
+		"/S/rsi/rio-demos/textos.html",
+		"/S/rsi/rio-demos/videos.html",
+		"/S/rsi/rio-demos/ideias.html",
+		"/S/rsi/rio-demos/home.html",
+		"/S/rsi/rio-demos/site/css/style.css",
+		"/S/rsi/rio-demos/site/css/colorbox.css",
+		"/S/rsi/rio-demos/site/css/login.css",
+		"/S/rsi/rio-demos/site/css/structure.css",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/S/rsi/rio-demos/chathamrlz.html",
+		"/S/rsi/rio-demos/Chatham House Rules.txt",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/Index.html",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/less/base.less",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/monster-trio.sublime-project",
+		"/C/Users/Daniel/Documents/GitHub/monster-trio-repo/less/base",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_droppy.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/main.css",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/css/icones.css",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/criadordecss.html",
+		"/C/Users/Daniel/Documents/GitHub/jack-css-icons/Exemplos.html",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax-bffc.sublime-project",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_main.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_most_wanted.css",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_template.css",
+		"/C/Users/Daniel/Hello-World/README",
+		"/S/bffc/extranet/site/public_html/wiki/skins/gumaxdd/gumax_print.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_droppy.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_template.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/gumaxdd/gumax_main.css",
+		"/S/rsi/rio-demos/site/css/demos.css",
+		"/S/rsi/rio-demos/site/css/ie.css",
+		"/S/rsi/rio-demos/site/css/usersprofile.css",
+		"/T/!comum/05 fontes/livres/Museo 500/Museo500-Regular.otf",
+		"/S/bffc/extranet/site/public_html/wiki/profileinfo.php",
+		"/S/bffc/extranet/site/public_html/wiki/includes/installer/LocalSettingsGenerator.php",
+		"/S/bffc/extranet/site/public_html/wiki/includes/Setup.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/scm/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/MonoBook.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MonoBook.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/Modern.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MySkin.deps.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/MySkin.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/Simple.php",
+		"/S/bffc/scm/site/public_html/wiki/skins/simple/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/myskin/scm.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/myskin/main.css",
+		"/S/bffc/scm/site/public_html/wiki/skins/Nostalgia.php",
+		"/S/reembolso/site/templates/css/base.css",
+		"/S/reembolso/site/templates/produto.html",
+		"/S/reembolso/site/templates/cadastre-se.html",
+		"/S/reembolso/site/templates/cestadecompras_logado.html",
+		"/S/reembolso/site/templates/cestadecompras_final.html",
+		"/S/reembolso/site/templates/cestadecompras_dadosdecompra.html",
+		"/S/reembolso/site/templates/cestadecompras_confirma.html",
+		"/S/reembolso/site/templates/cestadecompras.html",
+		"/S/reembolso/site/templates/conteudo.html",
+		"/S/reembolso/site/templates/produto-ajax.html",
+		"/S/reembolso/site/templates/meuspedidos.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"S:\\bffc\\extranet\\site\\public_html\\wiki",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates,S:\\reembolso\\site\\templates,S:\\reembolso\\site\\templates",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates,S:\\reembolso\\site\\templates",
+			"T:\\Reembolso Central\\261 - Upgrade do site - ERP\\templates",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"images",
+			"\n",
+			"cesta-fixa",
+			".container > .row",
+			"animate",
+			"		\n",
+			"			    \n",
+			"	    \n",
+			"form",
+			"reembolso",
+			"#produto",
+			"#capa",
+			"lateral",
+			"novo-base",
+			"select",
+			"entrega",
+			"formaEntrega",
+			"forma_entrega",
+			"nav-timeline",
+			"label",
+			"#outras",
+			".well",
+			"#conteudo",
+			".head",
+			"#listas",
+			".nav",
+			".cesta-fixa",
+			"facada",
+			"cesta-fixa",
+			"facebook",
+			"facebooki",
+			"box-shadow",
+			"ctrl",
+			"multiple",
+			"new",
+			"add",
+			"h3",
+			"disabled",
+			"nav-list",
+			"body",
+			"nav",
+			"well",
+			"nav-list",
+			"table",
+			"disabled",
+			".disabled",
+			"h1",
+			"brand",
+			"navbar",
+			"brand",
+			".btn",
+			"excel",
+			".btn",
+			"btn",
+			"disabled",
+			"^",
+			"span",
+			"nav",
+			"icon",
+			"form",
+			"@include single-trans",
+			"table",
+			"labe",
+			"check",
+			".btn",
+			"checkbox",
+			"label",
+			".well",
+			".btn",
+			".active",
+			"well",
+			"nth",
+			"border-radius",
+			"papel",
+			"realejo-box-shadow",
+			"overrides",
+			";",
+			"}",
+			"{",
+			";",
+			"div",
+			"think",
+			"Roboto-",
+			"Roboto-Regular-webfont",
+			"h2",
+			"gumax-footer",
+			".selected",
+			"padding",
+			"print",
+			"10px",
+			"»",
+			";\n",
+			"bg.jp",
+			"header",
+			"$wgLogo",
+			"$wg",
+			"$wgLogo",
+			"beitraege",
+			"2px",
+			"consultoria",
+			"desenvolvimento",
+			"simple",
+			"simples",
+			"<div class=\"span8\">\n                            <img src=\"img/banner-teste.gif\" alt=\"\">",
+			"<a href=\"#\">Confirmação",
+			"<a href=\"#\">Dados de envio e pagamento",
+			"<a href=\"#\">Identificação",
+			"<a href=\"/\" class=\"logo-reembolso-central\"></a>",
+			"#header",
+			"Thunbnail label",
+			"0",
+			"document",
+			"div",
+			"precisa",
+			"precisa de ajuda?",
+			"                                <li><a href=\"\">Pintura</a></li>\n                                <li><a href=\"\">Ponto de Cruz</a></li>\n                                <li><a href=\"\">Bordados Diversos</a></li>\n                                <li><a href=\"\">Fitas</a></li>\n                                <li><a href=\"\">Culinária</a></li>\n                                <li><a href=\"\">Beleza</a></li>\n                                <li><a href=\"\">Tapeçaria</a></li>\n                                <li><a href=\"\">Variedades</a></li>\n                                <li><a href=\"\">Artesanatos Diversos</a></li>",
+			"icon-web",
+			"span8",
+			"150",
+			"\">\n",
+			"layout",
+			"/js",
+			"/assets",
+			"strong",
+			"</dd>",
+			"<dd>",
+			"</dt>",
+			"<dt>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<div class=\"span8\" style=\"margin-top: 14px;\">\n                            <img src=\"img/banner-teste.gif\" alt=\"\">",
+			"<a>Confirmação",
+			"<a>Dados de envio e pagamento",
+			"<a>Identificação",
+			"<a href=\"Index.html\" class=\"logo-reembolso-central\"></a>",
+			"                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Pintura</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Ponto de Cruz</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Bordados Diversos</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Fitas</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Culinária</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Beleza</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Tapeçaria</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Variedades</a></li>\n                                <li><a href=\"\"><i class=\"reembolso flor1\"></i> Artesanatos Diversos</a></li>",
+			"h5",
+			"</p>",
+			"<p>",
+			"</strong>",
+			"<strong>",
+			"<li class=\"active\"><a href=\"FDRH-home.html\">Órgãos</a></li>",
+			"fix"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2994,
+								2994
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 610.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "coffee/contagem-regressiva.coffee",
+					"settings":
+					{
+						"buffer_size": 1540,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/_article.scss",
+					"settings":
+					{
+						"buffer_size": 1191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								372,
+								372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "js/contagem-regressiva.js",
+					"settings":
+					{
+						"buffer_size": 2642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/vendor/jquery.countdown.js",
+					"settings":
+					{
+						"buffer_size": 32807,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9952,
+								9952
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3150.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 355.0,
+	"status_bar_visible": true
+}

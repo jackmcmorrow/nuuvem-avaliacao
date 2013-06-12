@@ -8,66 +8,54 @@ Usando Sublime Text 2, Compass e Prepros;
   -moz-box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3), inset 0 -59px 20px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3), inset 0 -59px 20px rgba(0, 0, 0, 0.3); }
 
-/* line 6, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-article, .article {
+/* line 10, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article h1, .article h1 {
+  color: #4a1914;
+  font-family: Serif;
+  font-size: 22px; }
+/* line 16, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article .fnd-slider, .article .fnd-slider {
+  background: transparent url("../img/fnd-slider.png") center top no-repeat;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 270px; }
+/* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article .slider-outer, .article .slider-outer {
   position: relative; }
-  /* line 10, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article h1, .article h1 {
-    color: #4a1914;
-    font-family: Serif;
-    font-size: 22px; }
-  /* line 16, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .fnd-slider, .article .fnd-slider {
-    background: transparent url("../img/fnd-slider.png") 0 0 no-repeat;
-    position: absolute;
-    left: 10px;
-    width: 100%;
-    height: 270px; }
-  /* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .slider-outer, .article .slider-outer {
-    position: relative; }
-    /* line 26, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .slider-outer .slider, .article .slider-outer .slider {
-      position: relative;
-      display: block;
-      clear: both;
-      height: 210px;
-      padding: 20px 0; }
-    /* line 41, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .slider-outer .nav, .article .slider-outer .nav {
-      background: transparent url("../img/setas.png") 0 0 no-repeat;
-      position: absolute;
-      top: 120px;
-      display: block;
-      height: 45px;
-      width: 45px;
-      text-indent: -99999px; }
-  /* line 58, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-  article .portrait, .article .portrait {
+  /* line 26, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .slider-outer .slider, .article .slider-outer .slider {
+    position: relative;
     display: block;
-    float: left;
-    margin-right: 18px;
-    border: 3px solid white;
-    -webkit-box-shadow: 0 5px 15px -4px black;
-    -moz-box-shadow: 0 5px 15px -4px black;
-    box-shadow: 0 5px 15px -4px black; }
-    /* line 65, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .portrait:hover, .article .portrait:hover {
-      border-color: #ffb500;
-      position: relative; }
-      /* line 68, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-      article .portrait:hover:after, .article .portrait:hover:after {
-        content: ' ';
-        display: block;
-        width: 215px;
-        height: 134px;
-        position: absolute;
-        top: 0px;
-        left: 0px;
-        background: rgba(0, 0, 0, 0.3) url("../img/lupa.png") center 50% no-repeat; }
-    /* line 82, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
-    article .portrait img, .article .portrait img {
-      width: 215px; }
+    clear: both;
+    height: 210px;
+    padding: 20px 0; }
+/* line 53, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+article .portrait, .article .portrait {
+  display: block;
+  float: left;
+  margin-right: 14px;
+  border: 3px solid white;
+  -webkit-box-shadow: 0 5px 15px -4px black;
+  -moz-box-shadow: 0 5px 15px -4px black;
+  box-shadow: 0 5px 15px -4px black; }
+  /* line 60, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .portrait:hover, .article .portrait:hover {
+    border-color: #ffb500;
+    position: relative; }
+    /* line 63, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    article .portrait:hover:after, .article .portrait:hover:after {
+      content: ' ';
+      display: block;
+      width: 215px;
+      height: 134px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      background: rgba(0, 0, 0, 0.3) url("../img/lupa.png") center 50% no-repeat; }
+  /* line 77, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  article .portrait img, .article .portrait img {
+    width: 215px; }
 
 /* line 5, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
 .contador-regressivo .espacador {
@@ -79,21 +67,21 @@ article, .article {
 .contador-regressivo .numeros {
   position: relative;
   height: 47px;
-  width: 50px;
+  width: 60px;
   float: left; }
-  /* line 18, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  /* line 19, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .dec, .contador-regressivo .numeros .uni {
     width: auto;
     float: left;
     font-size: 16px;
     background-color: #efefef;
-    border: 1px solid #000000;
-    border-radius: 5px 0 0 5px;
-    padding: 3px 6px; }
-  /* line 29, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+    padding: 7px 7px 8px 13px;
+    background: url("../img/contador-fundo.png") no-repeat; }
+  /* line 31, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .uni {
-    border-radius: 0 5px 5px 0; }
-  /* line 34, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+    padding: 7px 13px 6px 7px;
+    background-position: top right; }
+  /* line 37, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .info {
     color: #ffb500;
     text-transform: uppercase;
@@ -178,23 +166,228 @@ article, .article {
   #footer .assinatura {
     color: white; }
 
-/* line 1, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
-#slides {
-  display: none; }
-  /* line 4, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
-  #slides .slidesjs-previous {
+/* line 4, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+#slider .slidesjs-navigation {
+  background: transparent url("../img/setas.png") 0 0 no-repeat;
+  position: absolute;
+  top: 120px;
+  display: block;
+  height: 45px;
+  width: 45px;
+  text-indent: -9999999px;
+  text-indent: -99999px; }
+  /* line 14, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+  #slider .slidesjs-navigation.slidesjs-previous {
     left: -50px;
     background-position: 0 0; }
-    /* line 7, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
-    #slides .slidesjs-previous.inactive {
+    /* line 17, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+    #slider .slidesjs-navigation.slidesjs-previous.inactive, #slider .slidesjs-navigation.slidesjs-previous:hover {
       background-position: 0 -75px; }
-  /* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
-  #slides .slidesjs-next {
+  /* line 22, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+  #slider .slidesjs-navigation.slidesjs-next {
     right: -50px;
     background-position: -70px 0; }
-    /* line 15, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
-    #slides .slidesjs-next.inactive {
+    /* line 25, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+    #slider .slidesjs-navigation.slidesjs-next.inactive, #slider .slidesjs-navigation.slidesjs-next:hover {
       background-position: -70px -75px; }
+/* line 32, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
+#slider .slidesjs-pagination {
+  display: none; }
+
+/*
+    Colorbox Core Style:
+    The following CSS is consistent between example themes and should not be altered.
+*/
+/* line 5, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#colorbox, #cboxOverlay, #cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden; }
+
+/* line 6, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%; }
+
+/* line 7, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxMiddleLeft, #cboxBottomLeft {
+  clear: left; }
+
+/* line 8, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxContent {
+  position: relative; }
+
+/* line 9, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; }
+
+/* line 10, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxTitle {
+  margin: 0; }
+
+/* line 11, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxLoadingOverlay, #cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow {
+  cursor: pointer; }
+
+/* line 13, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic; }
+
+/* line 14, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0; }
+
+/* line 15, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#colorbox, #cboxContent, #cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; }
+
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+/* line 22, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxOverlay {
+  background: #333333 repeat 0 0; }
+
+/* line 23, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#colorbox {
+  outline: 0; }
+
+/* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxContent {
+  background: #fff;
+  overflow: hidden;
+  padding: 15px; }
+
+/* line 29, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+.cboxIframe {
+  background: #fff; }
+
+/* line 30, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc; }
+
+/* line 32, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxTitle {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: #949494; }
+
+/* line 33, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxCurrent {
+  position: absolute;
+  bottom: 0;
+  left: 58px;
+  color: #949494; }
+
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+/* line 38, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxPrevious, #cboxNext, #cboxSlideshow, #cboxClose {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  width: auto;
+  background: none; }
+
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+/* line 41, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {
+  outline: 0; }
+
+/* line 43, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxSlideshow {
+  position: absolute;
+  bottom: 4px;
+  right: 30px;
+  color: #0092ef; }
+
+/* line 44, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxPrevious {
+  text-indent: -99999px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #cccccc;
+  content: '<';
+  width: 15px;
+  height: 15px; }
+
+/* line 53, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxPrevious:hover {
+  color: #000000; }
+
+/* line 54, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxNext {
+  text-indent: -99999px;
+  position: absolute;
+  bottom: 0;
+  left: 27px;
+  color: #cccccc;
+  content: '>';
+  width: 15px;
+  height: 15px; }
+
+/* line 63, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxNext:hover {
+  color: #000000; }
+
+/* line 64, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+#cboxClose {
+  background-color: #000000;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  line-height: 0.5; }
+  /* line 77, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+  #cboxClose:hover {
+    color: #cccccc; }
+
+/*
+  The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
+  when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to or needed in IE9.
+  See: http://jacklmoore.com/notes/ie-transparency-problems/
+*/
+/* line 94, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_colorbox.scss */
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); }
 
 /* line 23, ../sass/base.scss */
 .btn, .btn:hover {

@@ -1,19 +1,36 @@
-#slides {
-    display:none;
+#slider {
+    //display:none;
 
-   .slidesjs-previous {
-    	left: -50px;
-    	background-position: 0 0;
-    	&.inactive {
-    		background-position: 0 -75px;
-    	}
+    .slidesjs-navigation {
+        background: transparent url('../img/setas.png') 0 0 no-repeat;
+        position: absolute;
+        top: 120px;
+        display: block;
+        height: 45px;
+        width: 45px;
+        text-indent: -9999999px;
+        @include linkimg;
+
+        &.slidesjs-previous {
+        	left: -50px;
+        	background-position: 0 0;
+        	&.inactive, &:hover {
+        		background-position: 0 -75px;
+        	}
+        }
+        
+        &.slidesjs-next {
+        	right: -50px;
+        	background-position: -70px 0;
+        	&.inactive, &:hover {
+        		background-position: -70px -75px;
+        	}
+        }
+        
+    }
+
+    .slidesjs-pagination {
+        display: none;
     }
     
-    .slidesjs-next {
-    	right: -50px;
-    	background-position: -70px 0;
-    	&.inactive {
-    		background-position: -70px -75px;
-    	}
-    }
 }

@@ -12,8 +12,9 @@
 	.numeros {
 		position: relative;
 		height: 47px;
-		width: 50px;
+		width: 60px;
 		float: left;
+		
 
 		.dec {
 			width: auto;
@@ -21,14 +22,16 @@
 			font-size: 16px;
 
 			background-color: #efefef;
-			border: 1px solid #000000;
-			border-radius: 5px 0 0 5px;
-			padding: 3px 6px;
+			//border: 1px solid #000000;
+			//border-radius: 5px 0 0 5px;
+			padding: 7px 7px 8px 13px;
+			background: url('../img/contador-fundo.png') no-repeat;
 		}
 
 		.uni {
 			@extend .dec;
-			border-radius: 0 5px 5px 0;
+			padding: 7px 13px 6px 7px;
+			background-position: top right;
 		}
 
 		.info {

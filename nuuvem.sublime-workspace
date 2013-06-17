@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"minutos",
+				"minutosFaltando"
+			],
+			[
+				"se",
+				"segundosFaltando"
+			],
+			[
+				"minut",
+				"minutosFaltando"
+			],
+			[
+				"s",
+				"segundosFaltando"
+			],
+			[
+				"dias",
+				"diasFaltando"
+			],
+			[
+				"hora",
+				"horasFaltando"
+			],
+			[
+				"min",
+				"minutosFaltando"
+			],
+			[
+				"anos",
+				"anos"
+			],
+			[
+				"fAno",
+				"fAno"
+			],
+			[
+				"meses",
+				"meses"
+			],
+			[
+				"fMes",
+				"fMes"
+			],
+			[
 				"text",
 				"text-indent"
 			],
@@ -120,16 +164,8 @@
 				"rgba()"
 			],
 			[
-				"min",
-				"min-height"
-			],
-			[
 				"transition",
 				"transition-duration	zen:css_properties"
-			],
-			[
-				"s",
-				"style	@style"
 			],
 			[
 				"border-col",
@@ -271,7 +307,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5072,
+				"buffer_size": 5116,
 				"line_ending": "Windows"
 			}
 		},
@@ -279,7 +315,7 @@
 			"file": "coffee/contagem-regressiva.coffee",
 			"settings":
 			{
-				"buffer_size": 1540,
+				"buffer_size": 2829,
 				"line_ending": "Windows"
 			}
 		},
@@ -295,7 +331,7 @@
 			"file": "js/contagem-regressiva.js",
 			"settings":
 			{
-				"buffer_size": 2642,
+				"buffer_size": 3709,
 				"line_ending": "Unix"
 			}
 		},
@@ -311,16 +347,20 @@
 	"build_system": "Packages/Compass/Compass.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 242.0,
 		"selected_items":
 		[
 			[
-				"css",
-				"CSS Less-ish: Compile"
+				"coffee",
+				"Format: CoffeeScript"
 			],
 			[
 				"install",
 				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"CSS Less-ish: Compile"
 			],
 			[
 				"remove",
@@ -635,6 +675,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"if",
 			"images",
 			"\n",
 			"cesta-fixa",
@@ -761,8 +802,7 @@
 			"strong",
 			"</dd>",
 			"<dd>",
-			"</dt>",
-			"<dt>"
+			"</dt>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -801,15 +841,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5072,
+						"buffer_size": 5116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2994,
-								2994
+								5076,
+								5076
 							]
 						],
 						"settings":
@@ -818,7 +858,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 610.0,
+						"translation.y": 1867.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -828,15 +868,15 @@
 					"file": "coffee/contagem-regressiva.coffee",
 					"settings":
 					{
-						"buffer_size": 1540,
+						"buffer_size": 2829,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								675,
-								675
+								2277,
+								2277
 							]
 						],
 						"settings":
@@ -845,7 +885,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -888,15 +928,15 @@
 					"file": "js/contagem-regressiva.js",
 					"settings":
 					{
-						"buffer_size": 2642,
+						"buffer_size": 3709,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3652,
+								3652
 							]
 						],
 						"settings":
@@ -906,7 +946,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1305.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -22,7 +22,7 @@ atualizarNum = ($obj, val) -> #tá ok
 		$($obj + ' .dec').text(alg[0])
 		$($obj + ' .uni').text(alg[1])
 	else
-		$($obj + ' .uni').text('0')	
+		$($obj + ' .dec').text('0')	
 		$($obj + ' .uni').text(val)	
 	
 
@@ -72,7 +72,7 @@ class Contador
 		@dAno 	= Math.abs @fAno - @hAno
 		@dMes 	= Math.abs @fMes - @hMes
 		@dDia 	= @dias()
-		@dHoras = Math.abs @fHoras - @hHoras
+		@dHoras = Math.abs (@fHoras - @hHoras) - 1 #para deixar os minutos contarem
 		@dMin 	= Math.abs @fMin - @hMin
 		@dSec 	= Math.abs @fSec - @hSec
 
@@ -87,33 +87,49 @@ class Contador
 		atualizarNum '#horas', @dHoras
 		atualizarNum '#dias', @dDia
 
-		@contar = () ->
-			diasFaltando = @dDia
-			horasFaltando = @dHoras
-			minutosFaltando = @dMin
-			segundosFaltando = @dSec
-			
 
-			atualizarNum '#dias', diasFaltando
+		
+			#console.log atualizarNum '#segundos', segundosFaltando
 
-			if horasFaltando < 0
-				diasFaltando = diasFaltando - 1
-				horasFaltando = 23
-				atualizarNum '#horas', horasFaltando
+class Relogio
+	constructor: (@diasFaltando, @horasFaltando, @minutosFaltando, @segundosFaltando) ->
 
-			if minutosFaltando <= 0
-				horasFaltando = horasFaltando - 1
-				minutosFaltando = 60
-				atualizarNum '#minutos', minutosFaltando
+contador = new Contador 12, 8, 2013, 19, 0, 0 #data
+relogio = new Relogio contador.dDia, contador.dHoras, contador.dMin, contador.dSec
 
-			if segundosFaltando <= 0
-				minutosFaltando = minutosFaltando - 1
-				segundosFaltando = 60
-
-			atualizarNum '#segundos', segundosFaltando
-			@segundosFaltando -= 1
-			console.log segundosFaltando
-
-contador = new Contador 12, 8, 2013, 19, 0, 0
+console.log relogio
 #contador = new Contador 14, 10, 2014, 19, 0, 0
-#setInterval contador.contar(), 1000
+$(document).ready ->
+	#setTimeout contar(), 1000
+	#console.log 'fuck'
+
+df = relogio.diasFaltando
+hf = relogio.horasFaltando
+mf = relogio.minutosFaltando
+sf = relogio.segundosFaltando
+
+contar = () ->
+	atualizarNum '#dias', df
+	sf -= 1
+	
+	if hf < 0
+		df -= 1
+		hf = 23
+		atualizarNum '#horas', hf
+
+	if mf <= 0
+		hf -= 1
+		mf = 60
+		atualizarNum '#minutos', mf
+
+	if sf <= 0
+		mf -= 1
+		sf = 60
+	
+	atualizarNum '#segundos', sf
+	console.log sf
+	setTimeout esperar(), 1000
+
+esperar = () ->
+	setTimeout contar(), 1000
+

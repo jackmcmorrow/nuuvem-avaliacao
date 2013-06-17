@@ -1,4 +1,4 @@
-var Contador, atualizarNum, contador, contarMeses, eh_impar, eh_par, hoje;
+var Contador, Relogio, atualizarNum, contador, contar, contarMeses, df, eh_impar, eh_par, esperar, hf, hoje, mf, relogio, sf;
 
 hoje = new Date();
 
@@ -26,13 +26,12 @@ contarMeses = function(meses, dias) {
 
 atualizarNum = function($obj, val) {
   var alg;
-
   if (val >= 10) {
     alg = val.toString().split("");
     $($obj + ' .dec').text(alg[0]);
     return $($obj + ' .uni').text(alg[1]);
   } else {
-    $($obj + ' .uni').text('0');
+    $($obj + ' .dec').text('0');
     return $($obj + ' .uni').text(val);
   }
 };
@@ -40,7 +39,6 @@ atualizarNum = function($obj, val) {
 Contador = (function() {
   function Contador(fDia, fMes, fAno, fHoras, fMin, fSec) {
     var final;
-
     this.fDia = fDia;
     this.fMes = fMes;
     this.fAno = fAno;
@@ -56,7 +54,6 @@ Contador = (function() {
     this.hDia = hoje.getDate();
     this.meses = function() {
       var anos, deltaAnos, deltaMeses, fimAnos, fimMeses, meses;
-
       anos = this.hAno;
       fimAnos = this.fAno;
       deltaAnos = fimAnos - anos;
@@ -70,7 +67,6 @@ Contador = (function() {
     };
     this.dias = function() {
       var a, fimDia, fimMeses, meses, x;
-
       a = 0;
       meses = this.hMes;
       fimMeses = this.fMes - 1;
@@ -86,7 +82,7 @@ Contador = (function() {
     this.dAno = Math.abs(this.fAno - this.hAno);
     this.dMes = Math.abs(this.fMes - this.hMes);
     this.dDia = this.dias();
-    this.dHoras = Math.abs(this.fHoras - this.hHoras);
+    this.dHoras = Math.abs((this.fHoras - this.hHoras) - 1);
     this.dMin = Math.abs(this.fMin - this.hMin);
     this.dSec = Math.abs(this.fSec - this.hSec);
     console.log(this.hAno + ' ' + this.hMes + ' ' + this.hDia + ' ' + this.hHoras + ' ' + this.hMin + ' ' + this.hSec);
@@ -96,36 +92,62 @@ Contador = (function() {
     atualizarNum('#minutos', this.dMin);
     atualizarNum('#horas', this.dHoras);
     atualizarNum('#dias', this.dDia);
-    this.contar = function() {
-      var diasFaltando, horasFaltando, minutosFaltando, segundosFaltando;
-
-      diasFaltando = this.dDia;
-      horasFaltando = this.dHoras;
-      minutosFaltando = this.dMin;
-      segundosFaltando = this.dSec;
-      atualizarNum('#dias', diasFaltando);
-      if (horasFaltando < 0) {
-        diasFaltando = diasFaltando - 1;
-        horasFaltando = 23;
-        atualizarNum('#horas', horasFaltando);
-      }
-      if (minutosFaltando <= 0) {
-        horasFaltando = horasFaltando - 1;
-        minutosFaltando = 60;
-        atualizarNum('#minutos', minutosFaltando);
-      }
-      if (segundosFaltando <= 0) {
-        minutosFaltando = minutosFaltando - 1;
-        segundosFaltando = 60;
-      }
-      atualizarNum('#segundos', segundosFaltando);
-      this.segundosFaltando -= 1;
-      return console.log(segundosFaltando);
-    };
   }
 
   return Contador;
 
 })();
 
+Relogio = (function() {
+  function Relogio(diasFaltando, horasFaltando, minutosFaltando, segundosFaltando) {
+    this.diasFaltando = diasFaltando;
+    this.horasFaltando = horasFaltando;
+    this.minutosFaltando = minutosFaltando;
+    this.segundosFaltando = segundosFaltando;
+  }
+
+  return Relogio;
+
+})();
+
 contador = new Contador(12, 8, 2013, 19, 0, 0);
+
+relogio = new Relogio(contador.dDia, contador.dHoras, contador.dMin, contador.dSec);
+
+console.log(relogio);
+
+$(document).ready(function() {});
+
+df = relogio.diasFaltando;
+
+hf = relogio.horasFaltando;
+
+mf = relogio.minutosFaltando;
+
+sf = relogio.segundosFaltando;
+
+contar = function() {
+  atualizarNum('#dias', df);
+  sf -= 1;
+  if (hf < 0) {
+    df -= 1;
+    hf = 23;
+    atualizarNum('#horas', hf);
+  }
+  if (mf <= 0) {
+    hf -= 1;
+    mf = 60;
+    atualizarNum('#minutos', mf);
+  }
+  if (sf <= 0) {
+    mf -= 1;
+    sf = 60;
+  }
+  atualizarNum('#segundos', sf);
+  console.log(sf);
+  return setTimeout(esperar(), 1000);
+};
+
+esperar = function() {
+  return setTimeout(contar(), 1000);
+};

@@ -19,7 +19,7 @@ article .fnd-slider, .article .fnd-slider {
   position: absolute;
   left: 0;
   width: 100%;
-  height: 270px; }
+  height: 290px; }
 /* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
 article .slider-outer, .article .slider-outer {
   position: relative; }
@@ -30,7 +30,7 @@ article .slider-outer, .article .slider-outer {
     clear: both;
     height: 210px;
     padding: 20px 0; }
-/* line 53, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+/* line 45, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
 article .portrait, .article .portrait {
   display: block;
   float: left;
@@ -39,11 +39,11 @@ article .portrait, .article .portrait {
   -webkit-box-shadow: 0 5px 15px -4px black;
   -moz-box-shadow: 0 5px 15px -4px black;
   box-shadow: 0 5px 15px -4px black; }
-  /* line 60, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  /* line 52, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
   article .portrait:hover, .article .portrait:hover {
     border-color: #ffb500;
     position: relative; }
-    /* line 63, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+    /* line 55, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
     article .portrait:hover:after, .article .portrait:hover:after {
       content: ' ';
       display: block;
@@ -53,7 +53,7 @@ article .portrait, .article .portrait {
       top: 0px;
       left: 0px;
       background: rgba(0, 0, 0, 0.3) url("../img/lupa.png") center 50% no-repeat; }
-  /* line 77, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
+  /* line 69, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_article.scss */
   article .portrait img, .article .portrait img {
     width: 215px; }
 
@@ -61,27 +61,29 @@ article .portrait, .article .portrait {
 .contador-regressivo .espacador {
   width: auto;
   float: left;
-  padding: 4px 3px;
-  height: 40px; }
-/* line 12, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  padding: 4px 0;
+  height: 40px;
+  color: #ffb500;
+  font-size: 20px; }
+/* line 14, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
 .contador-regressivo .numeros {
   position: relative;
   height: 47px;
   width: 60px;
   float: left; }
-  /* line 19, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  /* line 21, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .dec, .contador-regressivo .numeros .uni {
     width: auto;
     float: left;
-    font-size: 16px;
+    font-size: 21px;
     background-color: #efefef;
     padding: 7px 7px 8px 13px;
     background: url("../img/contador-fundo.png") no-repeat; }
-  /* line 31, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  /* line 33, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .uni {
-    padding: 7px 13px 6px 7px;
+    padding: 7px 11px 6px 4px;
     background-position: top right; }
-  /* line 37, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
+  /* line 39, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_contador-regressivo.scss */
   .contador-regressivo .numeros .info {
     color: #ffb500;
     text-transform: uppercase;
@@ -119,7 +121,7 @@ article .portrait, .article .portrait {
     /* line 27, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_header.scss */
     #header .promo .lara-e-connor {
       position: absolute;
-      top: -75px;
+      top: -76px;
       right: 0;
       width: 619px;
       height: 519px;
@@ -165,6 +167,13 @@ article .portrait, .article .portrait {
   /* line 22, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
   #footer .assinatura {
     color: white; }
+    /* line 24, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
+    #footer .assinatura a {
+      color: #f1dd52;
+      text-decoration: none; }
+      /* line 27, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_footer.scss */
+      #footer .assinatura a:hover {
+        text-decoration: none; }
 
 /* line 4, C:/Users/Daniel/Documents/GitHub/nuuvem-avaliacao/sass/_slides.scss */
 #slider .slidesjs-navigation {

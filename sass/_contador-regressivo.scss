@@ -5,8 +5,10 @@
 	.espacador {
 		width: auto;
 		float: left;
-		padding: 4px 3px;
+		padding: 4px 0;
 		height: 40px;
+		color: #ffb500;
+		font-size: 20px;
 	}
 
 	.numeros {
@@ -19,7 +21,7 @@
 		.dec {
 			width: auto;
 			float: left;
-			font-size: 16px;
+			font-size: 21px;
 
 			background-color: #efefef;
 			//border: 1px solid #000000;
@@ -30,7 +32,7 @@
 
 		.uni {
 			@extend .dec;
-			padding: 7px 13px 6px 7px;
+			padding: 7px 11px 6px 4px;
 			background-position: top right;
 		}
 

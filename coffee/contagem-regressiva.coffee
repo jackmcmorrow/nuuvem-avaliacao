@@ -73,14 +73,14 @@ class Contador
 		@dMes 	= Math.abs @fMes - @hMes
 		@dDia 	= @dias()
 		@dHoras = Math.abs (@fHoras - @hHoras) - 1 #para deixar os minutos contarem
-		@dMin 	= Math.abs @fMin - @hMin
+		@dMin 	= Math.abs 60 - @hMin #quanto falta para terminar uma hora
 		@dSec 	= Math.abs @fSec - @hSec
 
 		
 
-		console.log @hAno + ' ' + @hMes + ' ' + @hDia + ' ' + @hHoras + ' ' + @hMin + ' ' + @hSec
-		console.log @fAno + ' ' + @fMes + ' ' + @fDia + ' ' + @fHoras + ' ' + @fMin + ' ' + @fSec
-		console.log @dAno + ' ' + @dMes + ' ' + @dDia + ' ' + @dHoras + ' ' + @dMin + ' ' + @dSec
+		#console.log @hAno + ' ' + @hMes + ' ' + @hDia + ' ' + @hHoras + ' ' + @hMin + ' ' + @hSec
+		#console.log @fAno + ' ' + @fMes + ' ' + @fDia + ' ' + @fHoras + ' ' + @fMin + ' ' + @fSec
+		#console.log @dAno + ' ' + @dMes + ' ' + @dDia + ' ' + @dHoras + ' ' + @dMin + ' ' + @dSec
 		
 		atualizarNum '#segundos', @dSec
 		atualizarNum '#minutos', @dMin
@@ -97,7 +97,7 @@ class Relogio
 contador = new Contador 12, 8, 2013, 19, 0, 0 #data
 relogio = new Relogio contador.dDia, contador.dHoras, contador.dMin, contador.dSec
 
-console.log relogio
+#console.log relogio
 #contador = new Contador 14, 10, 2014, 19, 0, 0
 $(document).ready ->
 	#setTimeout contar(), 1000
@@ -115,21 +115,20 @@ contar = () ->
 	if hf < 0
 		df -= 1
 		hf = 23
+		atualizarNum '#dias', df
 		atualizarNum '#horas', hf
 
 	if mf <= 0
 		hf -= 1
-		mf = 60
+		mf = 59
 		atualizarNum '#minutos', mf
+		atualizarNum '#horas', hf
 
 	if sf <= 0
 		mf -= 1
 		sf = 60
+		atualizarNum '#minutos', mf
+		atualizarNum '#segundos', sf
 	
 	atualizarNum '#segundos', sf
-	console.log sf
-	setTimeout esperar(), 1000
-
-esperar = () ->
-	setTimeout contar(), 1000
-
+	#console.log sf

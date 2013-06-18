@@ -21,5 +21,12 @@
 
 	.assinatura {
 		color: $contraste-primario;
+		a {
+			color: #f1dd52;
+			text-decoration: none;
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 }

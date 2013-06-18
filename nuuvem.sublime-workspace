@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"hf",
+				"hf"
+			],
+			[
+				"df",
+				"df"
+			],
+			[
+				"segundos",
+				"segundosFaltando"
+			],
+			[
+				"seg",
+				"segundosFaltando"
+			],
+			[
+				"horas",
+				"horasFaltando"
+			],
+			[
 				"minutos",
 				"minutosFaltando"
 			],
@@ -307,7 +327,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5116,
+				"buffer_size": 5126,
 				"line_ending": "Windows"
 			}
 		},
@@ -315,7 +335,7 @@
 			"file": "coffee/contagem-regressiva.coffee",
 			"settings":
 			{
-				"buffer_size": 2829,
+				"buffer_size": 3070,
 				"line_ending": "Windows"
 			}
 		},
@@ -331,7 +351,7 @@
 			"file": "js/contagem-regressiva.js",
 			"settings":
 			{
-				"buffer_size": 3709,
+				"buffer_size": 3901,
 				"line_ending": "Unix"
 			}
 		},
@@ -675,6 +695,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"toLowerCase",
+			".contar",
 			"if",
 			"images",
 			"\n",
@@ -800,9 +822,7 @@
 			"/js",
 			"/assets",
 			"strong",
-			"</dd>",
-			"<dd>",
-			"</dt>"
+			"</dd>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -841,15 +861,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 5116,
+						"buffer_size": 5126,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5076,
-								5076
+								5064,
+								5064
 							]
 						],
 						"settings":
@@ -858,7 +878,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1867.0,
+						"translation.y": 2183.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -868,15 +888,15 @@
 					"file": "coffee/contagem-regressiva.coffee",
 					"settings":
 					{
-						"buffer_size": 2829,
+						"buffer_size": 3070,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2277,
-								2277
+								1526,
+								1526
 							]
 						],
 						"settings":
@@ -885,7 +905,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 990.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -928,15 +948,15 @@
 					"file": "js/contagem-regressiva.js",
 					"settings":
 					{
-						"buffer_size": 3709,
+						"buffer_size": 3901,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3652,
-								3652
+								3779,
+								3779
 							]
 						],
 						"settings":
@@ -946,7 +966,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1305.0,
+						"translation.y": 1455.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
